@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE musiclibrary>
+
+<musiclibrary>
+
+    <song name="Laser Pimp" artist="Lil Boodang" releaseyear="2020">
+        <genres>Techno, underground hip hop, dark trap</genres>
+    </song>
+    
+    <song name="Lone Digger" artist="Caravan Palace" releaseyear="2015">
+        <genres>Nu jazz, electroswing</genres>
+    </song>
+
+    <song name="La Rompe Corazones" artist="Daddy Yankee, Ozuna" releaseyear="2017">
+        <genres>Urbano latino, trap latino, reggaeton, latin hip hop, puerto rican pop</genres>
+    </song>
+
+    <song name="Derezzed" artist="Daft Punk" releaseyear="2010">
+        <genres>Rock, filter house, electro</genres>
+    </song>
+</musiclibrary>
