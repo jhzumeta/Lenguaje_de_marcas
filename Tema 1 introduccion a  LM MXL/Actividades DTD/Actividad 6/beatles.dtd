@@ -1,0 +1,4 @@
+<!ELEMENT beatles (beeatle+)>
+<!ELEMENT beatle (name)>
+<!ELEMENT name (firstname, lastname)>
+<!ELEMENT firstnae (#PCDATA)
