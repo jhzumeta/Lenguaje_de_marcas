@@ -1,4 +1,10 @@
+<<<<<<< HEAD
 <!ELEMENT beatles (beeatle+)>
 <!ELEMENT beatle (name)>
 <!ELEMENT name (firstname, lastname)>
+=======
+<!ELEMENT beatles (beeatle+)>
+<!ELEMENT beatle (name)>
+<!ELEMENT name (firstname, lastname)>
+>>>>>>> 0f81f7ef227e10df53a6d3e272e9559615896acf
 <!ELEMENT firstnae (#PCDATA)

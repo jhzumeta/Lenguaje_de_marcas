@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE results [
     <!ELEMENT results (match)>
@@ -31,4 +32,39 @@
             <visiting_goals>2</visiting_goals>
         </match>
 
+=======
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE results [
+    <!ELEMENT results (match)>
+    <!ELEMENT match (local_team, visiting_team, local_goals, visiting_goals)>
+    <!ELEMENT local_team (#PCDATA)>
+    <!ELEMENT visiting_team (#PCDATA)>
+    <!ELEMENT local_goals (#PCDATA)>
+    <!ELEMENT visiting_goals (#PCDATA)>
+    ]>
+
+    <results>
+
+        <match>
+            <local_team>Nottingham Presa</local_team>
+            <local_goals>0</local_goals>
+            <visiting_team>Inner from Mitente</visiting_team>
+            <visiting_goals>1</visiting_goals>
+        </match>
+
+        <match>
+            <local_team>Vodka Juniors</local_team>
+            <local_goals>3</local_goals>
+            <visiting_team>Sparta da Risa</visiting_team>
+            <visiting_goals>3</visiting_goals>
+        </match>
+
+        <match>
+            <local_team>Water of Munich</local_team>
+            <local_goals>4</local_goals>
+            <visiting_team>Esteua is from the tap</visiting_team>
+            <visiting_goals>2</visiting_goals>
+        </match>
+
+>>>>>>> 0f81f7ef227e10df53a6d3e272e9559615896acf
     </results>

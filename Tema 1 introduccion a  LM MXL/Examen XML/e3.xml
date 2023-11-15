@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8"?>
 
 
@@ -45,4 +46,53 @@
        
     </brand>   
     <!-- Esta estructura se repite 3 veces mas -->
+=======
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<!DOCTYPE car_catalog>
+
+<car_catalog>
+
+    <brand name="Mitsubishi Motors" origin_country="Japan">
+
+        <car_1>
+            <license_plate>4652 GJT</license_plate>
+            <registration_year>2009</registration_year>
+            <model>ASX</model>
+            <seat_number>5</seat_number>
+            <engine_cc>2700</engine_cc>
+        </car_1>
+
+        <car_2>
+            <license_plate>8744 LMN</license_plate>
+            <registration_year>2012</registration_year>
+            <model>Space Star</model>
+            <seat_number>5</seat_number>
+            <engine_cc>2800</engine_cc>
+        </car_2>
+       
+    </brand>
+
+    <brand name="Volkswagen" origin_country="Germany">
+
+        <car_1>
+            <license_plate>9183 ENF</license_plate>
+            <registration_year>2020</registration_year>
+            <model>Tiguan</model>
+            <seat_number>4</seat_number>
+            <engine_cc>2800</engine_cc>
+        </car_1>
+
+        <car_2>
+            <license_plate>SE 1406 KT</license_plate>
+            <registration_year>1990</registration_year>
+            <model>Golf GTI</model>
+            <seat_number>5</seat_number>
+            <engine_cc>1390</engine_cc>
+        </car_2>
+       
+    </brand>   
+    <!-- Esta estructura se repite 3 veces mas -->
+>>>>>>> 0f81f7ef227e10df53a6d3e272e9559615896acf
 </car_catalog>

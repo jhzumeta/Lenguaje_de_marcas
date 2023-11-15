@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8"?>
 
 <!DOCTYPE bookinfo>
@@ -39,4 +40,47 @@
 
     </book>
     
+=======
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE bookinfo>
+
+<book_info>
+    
+    <book title="El excelente examen" publisher="Libritos" 
+    author="Javier Hidalgo" number_of_pages="200">
+
+        <chapter_1 title="Estudiando">
+            <start_page>1</start_page>
+            <end_page>38</end_page>
+        </chapter_1>
+
+        <chapter_2 title="No me se el tema">
+            <start_page>39</start_page>
+            <end_page>70</end_page>
+        </chapter_2>
+
+        <chapter_3 title="En verdad si me lo sé">
+            <start_page>71</start_page>
+            <end_page>100</end_page>
+        </chapter_3>
+
+        <chapter_4 title="Dando un repaso">
+            <start_page>101</start_page>
+            <end_page>137</end_page>
+        </chapter_4>
+
+        <chapter_5 title="Dia de examen">
+            <start_page>138</start_page>
+            <end_page>172</end_page>
+        </chapter_5>
+
+        <chapter_6 title="Lo conseguí">
+            <start_page>173</start_page>
+            <end_page>200</end_page>
+        </chapter_6>
+
+    </book>
+    
+>>>>>>> 0f81f7ef227e10df53a6d3e272e9559615896acf
 </book_info>

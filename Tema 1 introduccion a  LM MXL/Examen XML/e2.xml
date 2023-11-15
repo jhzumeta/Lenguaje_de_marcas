@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8"?>
 
 <!DOCTYPE shopping_center>
@@ -174,4 +175,182 @@
 
     </store>
 
+=======
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE shopping_center>
+
+<shopping_center>
+
+    <store>
+
+        <name>Adidas</name>
+        <plot_quantity>2</plot_quantity>
+        <square_meters>20</square_meters>
+
+        <manager_contact>
+
+            <first_name>Pedro</first_name>
+            <last_name>Rosado</last_name>
+            <contact_phone>659481345</contact_phone>
+            <NSS>62314656121354</NSS>
+
+        </manager_contact>
+
+    </store>
+    
+    <store>
+
+        <name>LEGO</name>
+        <plot_quantity>4</plot_quantity>
+        <square_meters>38</square_meters>
+
+        <manager_contact>
+
+            <first_name>Lucía</first_name>
+            <last_name>Pérez</last_name>
+            <contact_phone>465513259</contact_phone>
+            <NSS>9564572148564</NSS>
+
+        </manager_contact>
+
+    </store>
+    
+    <store>
+
+        <name>Decathlon</name>
+        <plot_quantity>8</plot_quantity>
+        <square_meters>80</square_meters>
+
+        <manager_contact>
+
+            <first_name>Juan</first_name>
+            <last_name>Escobar</last_name>
+            <contact_phone>457865412</contact_phone>
+            <NSS>615456532151645</NSS>
+
+        </manager_contact>
+
+    </store>
+    
+    <store>
+
+        <name>Puma</name>
+        <plot_quantity>6</plot_quantity>
+        <square_meters>54</square_meters>
+
+        <manager_contact>
+
+            <first_name>Eva</first_name>
+            <last_name>Martagón</last_name>
+            <contact_phone>8566574412</contact_phone>
+            <NSS>858574569354210</NSS>
+
+        </manager_contact>
+
+    </store>
+    
+    <store>
+
+        <name>Decimas</name>
+        <plot_quantity>7</plot_quantity>
+        <square_meters>70</square_meters>
+
+        <manager_contact>
+
+            <first_name>Luis</first_name>
+            <last_name>Espinosa</last_name>
+            <contact_phone>6253764815</contact_phone>
+            <NSS>879454658194554</NSS>
+
+        </manager_contact>
+
+    </store>
+
+    <store>
+
+        <name>GAME</name>
+        <plot_quantity>3</plot_quantity>
+        <square_meters>27</square_meters>
+
+        <manager_contact>
+
+            <first_name>Daniel</first_name>
+            <last_name>Puerto</last_name>
+            <contact_phone>234554618</contact_phone>
+            <NSS>6872431652546458</NSS>
+
+        </manager_contact>
+
+    </store>
+
+    <store>
+
+        <name>Pepe Pinreles</name>
+        <plot_quantity>4</plot_quantity>
+        <square_meters>34</square_meters>
+
+        <manager_contact>
+
+            <first_name>Antonio</first_name>
+            <last_name>Castaño</last_name>
+            <contact_phone>9864352765</contact_phone>
+            <NSS>4655374561548554</NSS>
+
+        </manager_contact>
+
+    </store>
+
+    <store>
+
+        <name>Peluquería Low Cost</name>
+        <plot_quantity>2</plot_quantity>
+        <square_meters>18</square_meters>
+
+        <manager_contact>
+
+            <first_name>Luisa</first_name>
+            <last_name>González</last_name>
+            <contact_phone>145332587</contact_phone>
+            <NSS>4568787416218574</NSS>
+
+        </manager_contact>
+
+    </store>
+
+    <store>
+
+        <name>Zara</name>
+        <plot_quantity>6</plot_quantity>
+        <square_meters>60</square_meters>
+
+        <manager_contact>
+
+            <first_name>Olga</first_name>
+            <last_name>Romero</last_name>
+            <contact_phone>458658625</contact_phone>
+            <NSS>7445875455685231</NSS>
+
+        </manager_contact>
+
+    </store>
+    
+    <store>
+
+        <name>Media Markt</name>
+        <plot_quantity>7</plot_quantity>
+        <square_meters>65</square_meters>
+
+        <manager_contact>
+
+            <first_name>Ester</first_name>
+            <last_name>Luceda</last_name>
+            <contact_phone>235687451</contact_phone>
+            <NSS>54689752132878954</NSS>
+
+        </manager_contact>
+
+    </store>
+
+>>>>>>> 0f81f7ef227e10df53a6d3e272e9559615896acf
 </shopping_center>
