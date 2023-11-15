@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="ej4.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+
+<!DOCTYPE clase>
+
+<clase codigo="3A">
+
+    <profesor>Dr. Smith</profesor>
+    <profesor>Prof. Johnson</profesor>
+    <profesor>Dr. Rodriguez</profesor> 
+
+    <alumnos>
+
+        <alumno id="1">
+            <nombre>Alberto Ramirez Flores</nombre>
+            <edad>15</edad>
+        </alumno>
+        
+    </alumnos>
+
+    <curso>3A</curso>
+
+</clase>

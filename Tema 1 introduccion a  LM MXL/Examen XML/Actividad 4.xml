@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE treeinfo>
+
+<treeinfo>
+
+    <tree name="Acer monspessulanum">
+        <commonname>Montpellier Maple, Lesser Maple</commonname>
+        <vegetation>Deciduous</vegetation>
+        <height>6 to 10 meters</height> 
+        <shapeandstructure>Spherical crown. Straight main trunk with branches. Drooping foliage</shapeandstructure>
+        <springcolor>Bright green upper side, whitish green underside</springcolor>
+        <frostresistance>Strong frost resistance (up to -15°C)</frostresistance>
+    </tree>
+
+    <tree name="Olea europea">
+        <commonname>Olive Tree</commonname>
+        <vegetation>Evergreen </vegetation>
+        <height>8 to 15 meters </height> 
+        <shapeandstructure>Irregular crown. Irregular main trunk with bifurcations..</shapeandstructure>
+    </tree>
+
+    <tree name="Ramaje tortuoso">
+        <springcolor>Dark green upper side, silvery green underside</springcolor>
+        <frostresistance>Moderate frost resistance (up to -10°C)</frostresistance>
+    </tree>
+
+    <tree name="Platanus orientalis">
+        <commonname>Plane Tree</commonname>
+        <vegetation>Deciduous</vegetation>
+        <height>20 to 25 meters  </height> 
+        <shapeandstructure>Ovoid crown. Straight main trunk. Expansive branching.</shapeandstructure>
+        <springcolor>Medium green upper side, light green underside</springcolor>
+        <autumncolor>Ochre</autumncolor>
+        <frostresistance>Strong frost resistance (up to -20°C)</frostresistance>
+    </tree>
+
+    <tree name="Quercus ilex">
+        <commonname>Holm Oak</commonname>
+        <vegetation>Evergreen</vegetation>
+        <height>Around 25 meters</height> 
+        <shapeandstructure>Spherical or irregularly elliptical crown. Straight main trunk. Twisted branches</shapeandstructure>
+        <springcolor>Silvery in young leaves. In mature leaves, dark green upper side, silvery underside</springcolor>
+        <frostresistance>Strong frost resistance (up to -15°C)</frostresistance>
+    </tree>
+
+
+
+
+
+
+
+
+</treeinfo>

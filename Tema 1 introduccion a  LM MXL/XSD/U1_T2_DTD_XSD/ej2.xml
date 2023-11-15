@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="ej2.dtd" type="application/xml-dtd"?>
+
+<!DOCTYPE libro>
+
+<libro catalogo="Eureka">
+
+    <Titulo></Titulo>
+    <Seccion></Seccion>
+    <SubSeccion></SubSeccion>
+
+    <Contenido>
+
+        <Capitulo materia="XML">
+            <Tema></Tema>
+        </Capitulo>
+
+        <Separacion></Separacion>
+
+    </Contenido>
+
+    <Copyright></Copyright>
+
+</libro>
