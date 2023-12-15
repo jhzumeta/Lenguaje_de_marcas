@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Libro SYSTEM "ej2.dtd">
+<Libro catalogo="Libritos">
+    <Titulo>El hotel</Titulo>
+    
+    <Seccion>3</Seccion>
+    <Contenido>
+        <Capitulo materia="Odio">
+            <Tema>Que</Tema>
+        </Capitulo>
+        <Capitulo materia="Programar">
+            <Tema>Pasa</Tema>
+        </Capitulo>
+        <Capitulo materia="Ayuda">
+            <Tema>Hola</Tema>
+        </Capitulo>
+        <Separacion></Separacion>
+    </Contenido>
+
+    <Copyright></Copyright>
+</Libro>
