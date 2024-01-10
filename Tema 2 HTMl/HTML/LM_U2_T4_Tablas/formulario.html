@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+
+<body>
+    <fieldset>
+        <form>
+            <label for="id_nombre">Nombre</label>
+            <input type="text" id="id_nombre" placeholder="Introduzca su nombre">
+            <br>
+            <label for="id_provincia">Provincia</label>
+            <select name="Provincia" id="id_provincia">
+                <option value="1">Sevilla</option>
+                <option value="2">Almería</option>
+                <option value="3">Granada</option>
+            </select>
+            <br>
+            <textarea name="Info" id="" cols="10" rows="5">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla quasi assumenda nobis necessitatibus minus quam accusamus doloribus voluptatum inventore pariatur est sunt, cupiditate odit. Mollitia optio laboriosam architecto sapiente quisquam?
+    </textarea>
+            <button type="submit">Enviar</button>
+    </fieldset>
+
+    <br>
+    <input type="color">
+    <br>
+    <input type="number" max="999">
+    <br>
+    <input type="date">
+    <br>
+    <input type="file">
+    <br>
+    <input type="password">
+    <button type="reset">Reset</button>
+
+    <br>
+    <p>Introduzca su lenguaje web favorito</p>
+    <input type="checkbox" id="html" value="HTML" name="fav_languaje">
+    <label for="html">HTML</label>
+    <input type="checkbox" id="css" value="CSS" name="fav_languaje">
+    <label for="css">CSS</label>
+    <input type="checkbox" id="js" value="javascript" name="fav_languaje">
+    <label for="js">Javascript</label>
+    <br>
+    <p>Introduzca su lenguaje web favorito</p>
+    <input type="radio" id="html" value="HTML" name="fav_languaje">
+    <label for="html">HTML</label>
+    <input type="radio" id="css" value="CSS" name="fav_languaje">
+    <label for="css">CSS</label>
+    <input type="radio" id="js" value="javascript" name="fav_languaje">
+    <label for="js">Javascript</label>
+    <br>
+
+    <label for="browser">Escriba un navegador</label>
+    <input list="browsers" name="browsers" id="browser">
+    <datalist id="browsers">
+        <option value="Explorer">
+        <option value="Edge">   
+        <option value="Chrome">
+        <option value="Firefox">
+    </datalist>
+    
+    </form>
+</body>
+</html>
