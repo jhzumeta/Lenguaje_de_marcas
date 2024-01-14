@@ -6,6 +6,64 @@
     <title>ej4</title>
 </head>
 <body>
+    <table border="2" style="font-family: Arial, Helvetica, sans-serif;">
+
+        <tr>
+            <td></td>
+            <td>A</td>
+            <td>B</td>
+            <td>C</td>
+        </tr>
+
+        <tr>
+            <td>1</td>
+            <td> <img src="IMG/Cruz.png" alt=""> </td>
+            <td></td>
+            <td> <img src="IMG/Tick.png" alt=""> </td>
+        </tr>
+
+        <tr>
+            <td>2</td>
+            <td></td>
+            <td><img src="IMG/Cruz.png" alt=""></td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td>3</td>
+            <td><img src="IMG/Tick.png" alt=""></td>
+            <td></td>
+            <td><img src="IMG/Cruz.png" alt=""></td>
+        </tr>
+
+    </table>
+
+    <br>
+
+    <form>
+
+        <table>
+            <tr>
+                <td colspan="2"> Turno para jugador Uno </td>
+            </tr>
+
+            <tr>
+                <td> <label for="fila">Fila</label> </td>
+                <td> <input type="number" id="fila" name="fila"  min="1" max="3" style="width: 100%;"> </td>
+            </tr>
+
+            <tr>
+                <td> <label for="columna">Columna</label> </td>
+                <td> <input type="number" id="columna" name="columna"  min="1" max="3" style="width: 100%;"> </td>
+            </tr>
+
+            <tr>
+                <td colspan="2" align="center"> <button type="submit"> Enviar </button> </td>
+            </tr>
+
+        </table>
     
+    </form>
+
 </body>
 </html>

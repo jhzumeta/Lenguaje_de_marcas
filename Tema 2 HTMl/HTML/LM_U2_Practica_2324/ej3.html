@@ -7,44 +7,63 @@
 </head>
 <body>
 
-<table>
-    <fieldset style="background-color: #bdb3b3">
-        <legend style="border: 1px solid black; background-color: white">IES Alixar Login</legend>
-    <tr style="background-color: aquamarine;">
-        <h2>IES Alixar Login</h2>
-    </tr>
-    </fieldset>
-</table>
 <form>
+  <table width="100%">
+      
+    <tr>
+      <th colspan="2" style="border: 0cap ; background-color:cadetblue; font-family: Arial, Helvetica, sans-serif; text-align: center;"> IES Alixar Login</th>
+    </tr>
+    
 
-  <label for="usuario">Usuario:</label><br>
-  <input type="text" id="usuario" name="usuario"><br><br>
+    <tr> 
+      <td width="50%"> <label for="usuario">Usuario:</label> </td>
+      <td width="50%"> <input type="text" id="usuario" name="usuario" style="padding: 1%;padding-left: 25%;"> </td>
+    </tr>
 
-  <label for="password">Password:</label><br>
-  <input type="password" id="password" name="password"><br><br>
+    <tr> 
+      <td> <label for="password">Password:</label> </td>
+      <td> <input type="password" id="password" name="password" style="padding: 1%;padding-left: 25%;"> </td>
+    </tr>
 
-  <label for="nacimiento">Fecha de Nacimiento:</label><br>
-  <input type="date" id="nacimiento" name="nacimiento" placeholder="dd/mm/aaaa"><br><br>
+    <tr>
+      <td><label for="nacimiento">Fecha de Nacimiento:</label></td>
+      <td><input type="date" id="nacimiento" name="nacimiento" placeholder="dd/mm/aaaa"></td>
+    </tr>
 
-  <label for="curso">Curso de Matriculación:</label><br>
-  <select id="curso" name="curso">
-    <option value="daw1">Primero DAW1</option>
-  </select><br><br>
+    <tr>
+      <td><label for="curso">Curso de Matriculación:</label></td>
+      <td>
+        <select id="curso" name="curso" style="background-color: lightgrey;">
+          <option value="daw1">Primero DAW1</option>
+          <option value="daw1">Segundo DAW1</option>
+        </select>
+      </td>
+    </tr>
 
-  <label for="role">Role:</label><br>
-  <input type="radio" id="estudiante" name="role" value="estudiante"> Estudiante<br>
-  <input type="radio" id="profesor" name="role" value="profesor"> Profesor<br>
-  <input type="radio" id="apoyo" name="role" value=""> Apoyo<br>
-  <input type="radio" id="staff" name="role" value="staff"> Staff<br>
-  
+    <tr>
+      <td><label for="role">Role:</label></td>
+      <td>
+        <input type="radio" id="estudiante" name="role" value="estudiante"> Estudiante<br>
+        <input type="radio" id="profesor" name="role" value="profesor"> Profesor<br>
+        <input type="radio" id="apoyo" name="role" value="apoyo"> Apoyo<br>
+        <input type="radio" id="staff" name="role" value="staff"> Staff
+      </td>
+    </tr>
 
-  <label for="communication">Forma de Comunicación:</label><br>
-  <input type="checkbox" id="mail" name="role" value="mail"> Mail<br>
-  <input type="checkbox" id="telefono" name="comunicacion" value="telefpno"> Teléfono<br>
-  <input type="checkbox" id="mail" name="comunicacion" value="mail"> Correo ordinario<br><br>
+    <tr>
+      <td><label for="communication">Forma de Comunicación:</label><br></td>
+      <td><input type="checkbox" id="mail" name="role" value="mail"> Mail<br>
+        <input type="checkbox" id="telefono" name="comunicacion" value="telefpno"> Teléfono<br>
+        <input type="checkbox" id="mail" name="comunicacion" value="mail"> Correo ordinario</td>
+    </tr>
 
-  <button type="submit">Enviar</button>
-  <button type="reset">Borrar</button>
+    <tr align="center">
+      <td colspan="2"><button type="submit">Enviar</button>
+      <button type="reset">Borrar</button></td>
+    </tr>
+
+      
+  </table>
 
 </form>
 
