@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ex4</title>
+</head>
+
+<body>
+
+    <form>
+        <table width="100%">
+
+            <tr>
+                <th colspan="2" style="border: 0cap ; background-color:rgb(226, 211, 72); text-align: center;">leave
+                    Form</th>
+            </tr>
+
+
+            <tr>
+                <td> <label for="email"><b>Employee email</b></label> </td>
+                <td>
+                    <select id="email" name="email" style="background-color: rgb(219, 216, 182);">
+                        <option value="appuser">appuser@zohocreator.com</option>
+                        <option value="appuser">appuser2@zohocreator.com</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td> <label for="employee_Id"><b>Employee Id</b></label> </td>
+                <td> <input type="text" style="background-color: rgb(219, 216, 182);" value="232" id="employee_Id"
+                        name="employee_Id"> </td>
+            </tr>
+
+            <tr>
+                <td> <label for="employee_name"><b>Employee name</b></label> </td>
+                <td> <input type="text" style="background-color: rgb(219, 216, 182);" value="appuser" id="employee_name"
+                        name="employee_name"> </td>
+            </tr>
+
+            <tr>
+                <td> <label for="designation"><b>Designation</b></label> </td>
+                <td> <input type="text" style="background-color: rgb(219, 216, 182);" value="Team Leader"
+                        id="employee_designation" name="employee_designation"> </td>
+            </tr>
+
+            <tr>
+                <td><label for="leave_type"><b>Leave type</b></label></td>
+                <td>
+                    <select id="leave_type" name="leave_type" required>
+                        <option value="default">-Select-</option>
+                        <option value="parental">Parental matters</option>
+                        <option value="illnes">Illness</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td><label for="leave_start"><b>From</b></label></td>
+                <td><input type="text" id="leave_start" name="leave_start" size="14" required><img height="15px"
+                        src="img/calendario.png" alt="calendario icono">[dd-MMM-yyyy]</td>
+            </tr>
+
+            <tr>
+                <td><label for="leave_end"><b>To</b></label></td>
+                <td><input type="text" id="leave_end" name="leave_end" size="14"><img height="15px"
+                        src="img/calendario.png" alt="calendario icono">[dd-MMM-yyyy]</td>
+            </tr>
+
+            <tr>
+                <td> <label for="nº_days"><b>No of Days</b></label> </td>
+                <td> <input type="nº_days" id="nº_days" name="nº_days" pattern="[0-9]" size="8"> </td>
+            </tr>
+
+
+            <tr>
+                <td> <label for="reason"><b>Reason</b></label> </td>
+                <td> <input type="text" id="reason" name="reason"> </td>
+            </tr>
+
+            <tr align="left">
+                <td colspan="2"><button style="background-color: goldenrod;" type="submit">Submit</button> 
+                <button style="background-color: goldenrod;" type="reset">Reset</button>
+                </td>
+            </tr>
+
+        </table>
+
+    </form>
+
+</body>
+
+</html>
