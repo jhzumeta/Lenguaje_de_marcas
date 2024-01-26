@@ -1,0 +1,43 @@
+p{
+    color: aquamarine;
+}
+
+h1{
+    border:2px dashed blueviolet;
+}
+
+h2{
+    background-color: purple;
+    border: 4px dashed aliceblue;
+    padding: 10px;
+    margin-top: 50px;
+}
+
+#fecha{
+    color: red;
+}
+
+.fecha2{
+    color: green;
+}
+
+body>h2{
+    font-style: italic;
+}
+
+p+img{
+    border:2px solid black;
+}
+
+p~img{
+    color: aqua;
+}
+
+body img [alt="logo chrome2"]{
+    color: brown;
+}
+
+img[alt="logo chrome1"]{
+    border-color: blue;
+}
+

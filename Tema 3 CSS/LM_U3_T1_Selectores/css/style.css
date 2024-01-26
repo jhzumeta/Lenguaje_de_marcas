@@ -1,0 +1,40 @@
+body {
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse; 
+}
+
+img {
+    width: 50px;
+    height: 50px;
+}
+
+.columna1 {
+    background-color: red;
+    color: white;
+}
+
+.GB{
+size: 100px;
+}
+
+#fila_capacidad {
+    text-align: center;
+    background-color: gray;
+}
+
+#lista_elementos {
+    color: red;
+}
+
+#cinco_horas {
+    padding: 80px;
+    background-color: yellow;
+}
+
+td[colspan="2"],
+td[colspan="3"] {
+    background-color: blue;
+}
