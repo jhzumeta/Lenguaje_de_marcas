@@ -1,0 +1,67 @@
+a:link{
+    color: green;
+}
+
+a:visited{
+    color: red;
+}
+
+input:disabled{
+    background-color: black;
+}
+
+input:enabled{
+    color:green
+}
+
+input:focus{
+    height: 50px;
+}
+
+/* div label:hover{
+    font-size: 100px;
+} */
+
+div label:hover{
+    font-size: 100px;
+}
+
+label:focus{
+    font-size: 100px;
+}
+
+/* div label:focus{
+    font-size: 100px;
+} */
+
+p:first-child{
+    color: green;
+}
+
+p:last-child{
+    color: yellow;
+}
+
+p:nth-child(even){
+    background-color: blue;
+}
+
+p:last-of-type{
+    font-size: 50px;
+}
+
+p::first-letter{
+    border: 5px dashed red;
+}
+
+p::first-line{
+    color: antiquewhite;
+}
+
+p::after{
+    content: "Leer aqui";
+}
+
+p::before{
+    content: "AAAA";
+}
