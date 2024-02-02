@@ -1,0 +1,29 @@
+ul ul{
+    /*  */
+}
+
+li:last-child:hover{
+
+}
+
+ul ul li>div {
+
+}
+
+li:hover>ul{
+ /* aplicar estilo a ul cuando hover encima de li */
+}
+
+ul ul li+li{
+/* aplicar a un li hermano de li dentro de lista anidada */
+}
+
+tbody th{
+    /* selecciona las celdas de encabezado de la seccion de la tabla */
+}
+
+tbody td:nth-child(5n+1){
+    /* seleccionar una celda de cada 5 empezando por la segunda */
+}
+
+
