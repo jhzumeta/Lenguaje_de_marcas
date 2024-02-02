@@ -1,0 +1,51 @@
+table,td,th {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+#horario {
+    margin-left: 0%;
+}
+
+a:link {
+    text-align: center;
+    margin-left: 0px;
+    text-decoration: dashed;
+    color: green;
+}
+
+a:visited {
+    color: red;
+    margin-left: 0px;
+}
+
+th::first-letter {
+    font-size: 300%;
+}
+
+#recreo {
+    background-color: yellow;
+    text-align: center;
+}
+
+.hora_verde {
+    background-color: green;
+}
+
+.input:enabled {
+    border: 1px solid red;
+    padding: 5px;
+}
+
+#correo::after {
+    color: red;
+    content: "*";
+}
+
+.viernes:hover {
+    font-size: 200%;
+}
+
+#email {
+    align-self: center;
+}

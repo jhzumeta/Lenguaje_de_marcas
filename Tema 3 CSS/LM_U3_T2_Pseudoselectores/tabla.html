@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actividad pseudoselectores</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <a id="horario" href="https://www.juntadeandalucia.es/temas/estudiar/primaria-eso/calendario.html" target="_blank">
+        <h3>HORARIO DE CLASE CURSO 2018-2019</h3>
+    </a>
+    <table>
+        <thead>
+            <tr>
+                <th>Horas</th>
+                <th>Lunes</th>
+                <th>Martes</th>
+                <th>Miercoles</th>
+                <th>Jueves</th>
+                <th class="viernes">Viernes</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="hora_verde">8:00</td>
+                <td rowspan="2">Matemáticas</td>
+                <td>Lengua</td>
+                <td>Inglés</td>
+                <td colspan="2">Ciencias</td>
+            </tr>
+            <tr>
+                <td class="hora_verde">9:00</td>
+                <td>Historia</td>
+                <td>Ciencias</td>
+                <td>Matemáticas</td>
+                <td>Lengua</td>
+            </tr>
+            <tr>
+                <td class="hora_verde">10:00</td>
+                <td colspan="5" id="recreo"><b>RECREO</b></td>
+
+            </tr>
+            <tr>
+                <td class="hora_verde">10:30</td>
+                <td>Inglés</td>
+                <td rowspan="2">Ciencias</td>
+                <td>Matemáticas</td>
+                <td>Lengua</td>
+                <td>Historia</td>
+            </tr>
+            <tr>
+                <td class="hora_verde">11:30</td>
+                <td>Historia</td>
+                <td>Ciencias</td>
+                <td>Matemáticas</td>
+                <td>Inglés</td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+    <form id="email">
+        <label for="correo" id="correo">Email</label>
+        <input type="text" class="input" placeholder="Inserte email del destinatario"><br>
+        <input type="button" value="Enviar Horario">
+    </form>
+</body>
+
+</html>
+</body>
+
+</html>
