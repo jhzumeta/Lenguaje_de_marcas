@@ -1,0 +1,1 @@
+Los últimos 5 párrafos son distintos porque el selector "p" los está referenciando, mientras que los 2 primeros tienen una clase llamada "verse", de tal manera que a estos 2 se les aplicará otros estilos diferentes

@@ -1,0 +1,35 @@
+body{
+se refiere a todo el groso del documento, en este caso se le aplicará al body un color de fondo "tan"
+}
+
+h1{
+esto es un "header", indicando un texto importante, por así decirlo. En este caso se le aplica un color "maroon" y un tamaño de letra de 20 "pt"
+}
+
+hr{
+hr es una linea divisoria, en este caso se le aplica el color "navy"
+}
+
+p{
+indica un párrafo que contiene texto, en este caso un poema, ha sido modificado para que su contenido tenga un tamañao de letra de 12 "pt" y un margen con la izquierda de 15 "px"
+}
+
+p.verse{
+la parte "p" indica un párrafo, pero la parte "verse" indica que todos los párrafos que sean identificados mediante la clase "verse", se les aplicará un color "maroon" y un margen con el borde izquierdo de 60 "px"
+}
+
+a:link{
+la "a" hace referencia a una dirección web que nosotros podemos insertar, la parte de "link" indica el texto escrito que al clickar nos llevará al link que hemos insertado, en este caso los links estarán escritos con el color "green"
+}
+
+a:visited{
+en este caso "visited" indica un link ya visitado, cuando hayamos visitado un link, el texto del mismo aparecerá escrito en "yellow"
+}
+
+a:hover{
+"hover" significa flotar, levitar, planear, en esta instancia "hover" se refiere cuando tenemos el cursor del ratón encima de un link, cuando ocurra esto el texto de este link cambiará al color "black"
+}
+
+a:active{
+"activa" hace referencia a cuando un elemento de css está siendo utilizado, ya que ha recibido una acción del usuario, de tal manera que aquí cuando un link este siendo utilizado pasará al color "blue"
+}
