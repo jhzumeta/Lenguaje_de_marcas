@@ -2,8 +2,14 @@ body {
     font-family: Arial, sans-serif;
 }
 
+#navegacion{
+    align-items: left;
+    grid-column: 2/3;
+}
+
 .header {
-    display: flex;
+    display: grid;
+    grid-template-columns: auto auto;
     justify-content: space-between;
     padding: 20px;
     background-color: #fbfcfc;
