@@ -8,7 +8,7 @@ body {
 }
 
 .header {
-    display: grid;
+    display: flex;
     grid-template-columns: auto auto;
     justify-content: space-between;
     padding: 20px;
@@ -17,6 +17,10 @@ body {
 
 #eslogan{
     background-color: #fbfcfc;
+}
+
+.socios{
+    
 }
 
 .busqueda {
@@ -30,9 +34,9 @@ body {
     margin-right: 10px;
 }
 
-.funciones {
+#funciones {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     padding: 20px;
     background-color: #ffffff;
 }
