@@ -1,0 +1,224 @@
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: Arial, sans-serif;
+    background-color: #f9fafa;
+}
+
+.menu_top{
+    display: inline-block;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.menu_top,a{
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    align-items:center;
+}
+
+.menu_top img{
+    margin-right: 10px;
+    height: 30px;
+}
+
+.menu_top:hover{
+background-color: rgb(211, 210, 210);
+}
+
+#navegacion{
+    grid-column: 2/3;
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 100px;
+}
+
+#header {
+    width: 100%;
+    display: flex;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #fefefe;
+    border-bottom:solid;
+    border-color: #e3e5e7;
+}
+
+#eslogan{
+    background-color: #f9fafa;
+    margin-left: 20px;
+}
+
+#socios_fotos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+    margin-right: 100px;
+}
+
+.socios{
+    height: 40px;
+}
+
+.busqueda {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgb(103, 103, 103);
+    border-radius: 10px;
+    margin: 20px;
+    margin-right: 100px;
+}
+
+.busqueda input {
+    margin-right: 10px;
+}
+
+.busqueda img {
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+#destino{
+    display: flex;
+    align-items: center;
+    border-right: 1px solid rgb(186, 186, 186);
+    height: 70px;
+    padding-right: 100px;
+}
+
+#destino div{
+    color: gray;
+    font-size: 13px;
+}
+
+#destino input{
+    border: none;
+    font-weight: bold;
+    color: black;
+    font-size: 15px;
+    outline: none;
+}
+
+::placeholder{
+
+    color: black;
+
+}
+
+
+
+#entrada{
+    border-right: 1px solid rgb(186, 186, 186);
+    display: flex;
+    align-items: center;
+    padding-right: 100px;
+
+}
+#entrada div{
+    color: gray;
+    font-size: 13px;
+}
+
+#entrada input{
+    /* Oculta la flecha de selección */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    /* Oculta el icono del calendario */
+    background-image: none;
+    /* Oculta el borde predeterminado */
+    border: none;
+    /* Establece el tamaño del texto y el padding */
+    font-size: 16px;
+    padding: 5px;
+    /* Establece el ancho del input */
+    width: 150px;
+    /* Alinea el texto al centro */
+    text-align: center;
+}
+
+input[type="date"]::-webkit-inner-spin-button,
+input[type="date"]::-webkit-calendar-picker-indicator {
+    display: none;
+    -webkit-appearance: none;
+}
+
+#salida{
+    border-right: 1px solid rgb(186, 186, 186);
+    height: 70px;
+    color: gray;
+    font-size: 13px;
+    padding-top: 10px;
+    padding-right: 100px;
+}
+
+#salida input{
+     /* Oculta la flecha de selección */
+     -webkit-appearance: none;
+     -moz-appearance: none;
+     appearance: none;
+     /* Oculta el icono del calendario */
+     background-image: none;
+     /* Oculta el borde predeterminado */
+     border: none;
+     /* Establece el tamaño del texto y el padding */
+     font-size: 16px;
+     padding: 5px;
+     /* Establece el ancho del input */
+     width: 150px;
+     /* Alinea el texto al centro */
+     text-align: center;
+}
+
+#habit{
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    height: 70px;
+
+}
+
+#habit div{
+    color: gray;
+    font-size: 13px;
+}
+
+#habit input{
+    border: none;
+    font-weight: bold;
+    color: black;
+    font-size: 15px;
+    outline: none;
+}
+
+#buscar button{
+    background-color: #005fa3;
+    color: white;
+    border: none;
+    width: 100px;
+    height: 40px;
+    border-radius: 7px;
+    margin-left: 50px;
+}
+
+#funciones {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: #ffffff;
+    height: 555px;
+}
