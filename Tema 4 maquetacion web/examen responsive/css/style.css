@@ -147,7 +147,4 @@ section div p:last-of-type {
     #recipes {
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
-
-    
-
 }
