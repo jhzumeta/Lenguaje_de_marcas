@@ -1,0 +1,577 @@
+@media screen and (max-width: 576px) {
+    * {
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+    
+    body {
+        margin: 0px;
+        font-family: Arial, sans-serif;
+        background-color: #f9fafa;
+    }
+    
+    .menu_top:hover {
+        background-color: rgb(211, 210, 210);
+    }
+    
+    .busqueda {
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        padding: 10px;
+        background-color: white;
+        box-shadow: 0px 0px 10px rgb(103, 103, 103);
+        border-radius: 10px;
+        margin: 10px;
+        overflow: hidden;
+    }
+    
+    .busqueda input {
+        margin-bottom: 10px;
+    }
+    
+    .busqueda img {
+        vertical-align: middle;
+        margin-right: 10px;
+    }
+    
+    input[type="date"]::-webkit-inner-spin-button,
+    input[type="date"]::-webkit-calendar-picker-indicator {
+        display: none;
+        -webkit-appearance: none;
+    }
+    
+    #destino,
+    #entrada,
+    #salida,
+    #habit,
+    #buscar {
+        display: flex;
+        align-items: center;
+        border: none;
+        padding: 10px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    ::placeholder {
+        color: black;
+    
+    }
+
+    #salida{
+        color: gray;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        margin-left: 40px;
+    }
+    
+    #destino div,
+    #entrada div,
+    #habit div {
+        color: gray;
+        font-size: 13px;
+    }
+    
+    #destino input,
+    #entrada input,
+    #salida input,
+    #habit input {
+        border: none;
+        font-weight: bold;
+        color: black;
+        font-size: 15px;
+        outline: none;
+        width: 100%;
+    }
+    
+    #buscar button {
+        background-color: #005fa3;
+        color: white;
+        border: none;
+        width: 100%;
+        height: 40px;
+        border-radius: 7px;
+    }
+    
+    #buscar :hover {
+        cursor: pointer;
+    }
+    
+    #funciones {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        background-color: #ffffff;
+    }
+    
+    #funciones div {
+        margin-bottom: 20px;
+    }
+    
+    .menu_top {
+        display: block;
+        padding: 10px;
+    }
+    
+    .menu_top,
+    a {
+        text-decoration: none;
+        color: inherit;
+        display: flex;
+        align-items: center;
+    }
+    
+    .menu_top img {
+        margin-right: 10px;
+        height: 20px;
+    }
+    
+    #navegacion {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    #header {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px;
+        background-color: #fefefe;
+        border-bottom: solid;
+        border-color: #e3e5e7;
+    }
+    
+    #eslogan {
+        background-color: #f9fafa;
+        margin: 10px 0;
+    }
+    
+    #socios_fotos {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        margin-left: 10%;
+    }
+    
+    .socios {
+        width: 60%;
+        margin-bottom: 10px;
+    }
+}
+
+
+
+
+@media screen and (min-width: 576px) {
+    body {
+        margin: 0px;
+        font-family: Arial, sans-serif;
+        background-color: #f9fafa;
+    }
+    
+    .menu_top:hover {
+        background-color: rgb(211, 210, 210);
+    }
+    
+    .busqueda {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: stretch;
+        padding: 10px;
+        background-color: white;
+        box-shadow: 0px 0px 10px rgb(103, 103, 103);
+        border-radius: 10px;
+        margin: 10px;
+        overflow: auto;
+    }
+    
+    .busqueda input {
+        margin-bottom: 10px;
+    }
+    
+    .busqueda img {
+        vertical-align: middle;
+        margin-right: 10px;
+    }
+
+    input[type="date"]::-webkit-inner-spin-button,
+    input[type="date"]::-webkit-calendar-picker-indicator {
+        display: none;
+        -webkit-appearance: none;
+    }
+    
+    #destino,
+    #entrada,
+    #salida,
+    #habit,
+    #buscar {
+        display: flex;
+        align-items: center;
+        border: none;
+        padding: 10px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    ::placeholder {
+        color: black;
+    
+    }
+
+    #salida{
+        color: gray;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        margin-left: 40px;
+    }
+    
+    #destino div,
+    #entrada div,
+    #habit div {
+        color: gray;
+        font-size: 13px;
+    }
+    
+    #destino input,
+    #entrada input,
+    #salida input,
+    #habit input {
+        border: none;
+        font-weight: bold;
+        color: black;
+        font-size: 15px;
+        outline: none;
+        width: 100%;
+    }
+    
+    #buscar button {
+        background-color: #005fa3;
+        color: white;
+        border: none;
+        width: 100%;
+        height: 40px;
+        border-radius: 7px;
+    }
+
+    #buscar{
+        margin-left: 50%;
+    }
+    
+    #buscar :hover {
+        cursor: pointer;
+    }
+    
+    #funciones {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        background-color: #ffffff;
+    }
+    
+    #funciones div {
+        margin-bottom: 20px;
+    }
+    
+    .menu_top {
+        display: block;
+        padding: 10px;
+    }
+    
+    .menu_top,
+    a {
+        text-decoration: none;
+        color: inherit;
+        display: flex;
+        align-items: center;
+    }
+    
+    .menu_top img {
+        margin-right: 10px;
+        height: 20px;
+    }
+    
+    #navegacion {
+        position: relative;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        margin-left: 10%;
+    }
+    
+    #header {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: space;
+        padding: 10px;
+        background-color: #fefefe;
+        border-bottom: solid;
+        border-color: #e3e5e7;
+    }
+    
+    #eslogan {
+        background-color: #f9fafa;
+        margin: 10px 0;
+    }
+    
+    #socios_fotos {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        margin-left: 10%;
+    }
+
+    
+    .socios {
+        width: 45%;
+        margin-bottom: 10px;
+    }
+
+    
+
+}
+
+
+@media screen and (min-width: 992px) {
+    body {
+        margin: 0px;
+        font-family: Arial, sans-serif;
+        background-color: #f9fafa;
+    }
+    
+    .menu_top:hover {
+        background-color: rgb(211, 210, 210);
+    }
+    
+    .busqueda {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-left: 3%;
+        padding-right: 2%;
+        background-color: white;
+        box-shadow: 0px 0px 10px rgb(103, 103, 103);
+        border-radius: 10px;
+        margin: 2%;
+        margin-right: 8%;
+    }
+    
+    .busqueda input {
+        margin-right: 10px;
+    }
+    
+    .busqueda img {
+        vertical-align: middle;
+        margin-right: 10px;
+    }
+    
+    #destino {
+        display: flex;
+        align-items: center;
+        border-right: 1px solid rgb(186, 186, 186);
+        height: 70px;
+        padding-right: 6%;
+    }
+    
+    #destino div {
+        color: gray;
+        font-size: 13px;
+    }
+    
+    #destino input {
+        border: none;
+        font-weight: bold;
+        color: black;
+        font-size: 15px;
+        outline: none;
+    }
+    
+    ::placeholder {
+        color: black;
+    
+    }
+    
+    #entrada {
+        border-right: 1px solid rgb(186, 186, 186);
+        display: flex;
+        align-items: center;
+        padding-right: 6%;
+    
+    }
+    
+    #entrada div {
+        color: gray;
+        font-size: 13px;
+    }
+    
+    #entrada input {
+        /* Oculta la flecha de selección */
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        /* Oculta el icono del calendario */
+        background-image: none;
+        /* Oculta el borde predeterminado */
+        border: none;
+        /* Establece el tamaño del texto y el padding */
+        font-size: 16px;
+        padding: 5px;
+        /* Establece el ancho del input */
+        width: 150px;
+        /* Alinea el texto al centro */
+        text-align: center;
+    }
+    
+    input[type="date"]::-webkit-inner-spin-button,
+    input[type="date"]::-webkit-calendar-picker-indicator {
+        display: none;
+        -webkit-appearance: none;
+    }
+    
+    #salida {
+        border-right: 1px solid rgb(186, 186, 186);
+        height: 70px;
+        color: gray;
+        font-size: 13px;
+        padding-top: 10px;
+        padding-right: 6%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    
+    #salida input {
+        /* Oculta la flecha de selección */
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        /* Oculta el icono del calendario */
+        background-image: none;
+        /* Oculta el borde predeterminado */
+        border: none;
+        /* Establece el tamaño del texto y el padding */
+        font-size: 16px;
+        padding: 5px;
+        /* Establece el ancho del input */
+        width: 150px;
+        /* Alinea el texto al centro */
+        text-align: center;
+    }
+    
+    #habit {
+        margin-left: 20px;
+        display: flex;
+        align-items: center;
+        height: 70px;
+        width: 150%;
+    
+    }
+    
+    #habit div {
+        color: gray;
+        font-size: 13px;
+    }
+    
+    #habit input {
+        border: none;
+        font-weight: bold;
+        color: black;
+        font-size: 15px;
+        outline: none;
+    }
+    
+    #buscar button {
+        background-color: #005fa3;
+        color: white;
+        border: none;
+        width: 100px;
+        height: 40px;
+        border-radius: 7px;
+        margin-left: 50px;
+    }
+
+    #buscar{
+        margin-left: 0%;
+    }
+    
+    #funciones {
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 20px;
+        padding-left: 100px;
+        padding-right: 100px;
+        background-color: #ffffff;
+        height: 555px;
+    }
+    
+    
+    .menu_top {
+        display: inline-block;
+        border-radius: 5px;
+        padding: 10px;
+    }
+    
+    .menu_top,
+    a {
+        text-decoration: none;
+        color: inherit;
+        display: flex;
+        align-items: center;
+    }
+    
+    .menu_top img {
+        margin-right: 10px;
+        height: 30px;
+    }
+    
+    #navegacion {
+        grid-column: 2/3;
+        width: 40%;
+        display: flex;
+        justify-content: space-between;
+        margin-right: 10%;
+    }
+    
+    #header {
+        width: 100%;
+        display: flex;
+        grid-template-columns: auto auto;
+        justify-content: space-between;
+        padding: 20px;
+        background-color: #fefefe;
+        border-bottom: solid;
+        border-color: #e3e5e7;
+    }
+    
+    #eslogan {
+        background-color: #f9fafa;
+        margin-left: 20px;
+    }
+    
+    #socios_fotos {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 5%;
+        margin-right: 5%;
+    }
+    
+    .socios {
+         width: 80%;
+    }
+
+}

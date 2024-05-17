@@ -3,68 +3,16 @@
     box-sizing: border-box;
 }
 
+
+
 body {
     margin: 0px;
     font-family: Arial, sans-serif;
     background-color: #f9fafa;
 }
 
-.menu_top{
-    display: inline-block;
-    border-radius: 5px;
-    padding: 10px;
-}
-
-.menu_top,a{
-    text-decoration: none;
-    color: inherit;
-    display: flex;
-    align-items:center;
-}
-
-.menu_top img{
-    margin-right: 10px;
-    height: 30px;
-}
-
-.menu_top:hover{
-background-color: rgb(211, 210, 210);
-}
-
-#navegacion{
-    grid-column: 2/3;
-    width: 40%;
-    display: flex;
-    justify-content: space-between;
-    margin-right: 100px;
-}
-
-#header {
-    width: 100%;
-    display: flex;
-    grid-template-columns: auto auto;
-    justify-content: space-between;
-    padding: 20px;
-    background-color: #fefefe;
-    border-bottom:solid;
-    border-color: #e3e5e7;
-}
-
-#eslogan{
-    background-color: #f9fafa;
-    margin-left: 20px;
-}
-
-#socios_fotos{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 100px;
-    margin-right: 100px;
-}
-
-.socios{
-    height: 40px;
+.menu_top:hover {
+    background-color: rgb(211, 210, 210);
 }
 
 .busqueda {
@@ -89,7 +37,7 @@ background-color: rgb(211, 210, 210);
     margin-right: 10px;
 }
 
-#destino{
+#destino {
     display: flex;
     align-items: center;
     border-right: 1px solid rgb(186, 186, 186);
@@ -97,12 +45,12 @@ background-color: rgb(211, 210, 210);
     padding-right: 100px;
 }
 
-#destino div{
+#destino div {
     color: gray;
     font-size: 13px;
 }
 
-#destino input{
+#destino input {
     border: none;
     font-weight: bold;
     color: black;
@@ -110,27 +58,25 @@ background-color: rgb(211, 210, 210);
     outline: none;
 }
 
-::placeholder{
-
+::placeholder {
     color: black;
 
 }
 
-
-
-#entrada{
+#entrada {
     border-right: 1px solid rgb(186, 186, 186);
     display: flex;
     align-items: center;
     padding-right: 100px;
 
 }
-#entrada div{
+
+#entrada div {
     color: gray;
     font-size: 13px;
 }
 
-#entrada input{
+#entrada input {
     /* Oculta la flecha de selección */
     -webkit-appearance: none;
     -moz-appearance: none;
@@ -154,7 +100,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     -webkit-appearance: none;
 }
 
-#salida{
+#salida {
     border-right: 1px solid rgb(186, 186, 186);
     height: 70px;
     color: gray;
@@ -163,25 +109,25 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     padding-right: 100px;
 }
 
-#salida input{
-     /* Oculta la flecha de selección */
-     -webkit-appearance: none;
-     -moz-appearance: none;
-     appearance: none;
-     /* Oculta el icono del calendario */
-     background-image: none;
-     /* Oculta el borde predeterminado */
-     border: none;
-     /* Establece el tamaño del texto y el padding */
-     font-size: 16px;
-     padding: 5px;
-     /* Establece el ancho del input */
-     width: 150px;
-     /* Alinea el texto al centro */
-     text-align: center;
+#salida input {
+    /* Oculta la flecha de selección */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    /* Oculta el icono del calendario */
+    background-image: none;
+    /* Oculta el borde predeterminado */
+    border: none;
+    /* Establece el tamaño del texto y el padding */
+    font-size: 16px;
+    padding: 5px;
+    /* Establece el ancho del input */
+    width: 150px;
+    /* Alinea el texto al centro */
+    text-align: center;
 }
 
-#habit{
+#habit {
     margin-left: 20px;
     display: flex;
     align-items: center;
@@ -189,12 +135,12 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 
 }
 
-#habit div{
+#habit div {
     color: gray;
     font-size: 13px;
 }
 
-#habit input{
+#habit input {
     border: none;
     font-weight: bold;
     color: black;
@@ -202,7 +148,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     outline: none;
 }
 
-#buscar button{
+#buscar button {
     background-color: #005fa3;
     color: white;
     border: none;
@@ -223,14 +169,58 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     height: 555px;
 }
 
-@media screen and (min-width: 576px) {
 
-
-
+.menu_top {
+    display: inline-block;
+    border-radius: 5px;
+    padding: 10px;
 }
 
-@media screen and (min-width: 992px) {
+.menu_top,
+a {
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    align-items: center;
+}
 
-   
+.menu_top img {
+    margin-right: 10px;
+    height: 30px;
+}
 
+#navegacion {
+    grid-column: 2/3;
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10%;
+}
+
+#header {
+    width: 100%;
+    display: flex;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #fefefe;
+    border-bottom: solid;
+    border-color: #e3e5e7;
+}
+
+#eslogan {
+    background-color: #f9fafa;
+    margin-left: 20px;
+}
+
+#socios_fotos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5%;
+    margin-right: 5%;
+}
+
+.socios {
+    height: 20%;
 }
