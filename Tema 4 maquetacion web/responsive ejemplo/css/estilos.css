@@ -217,13 +217,12 @@ section h4 {
 }
 
 @media (min-width: 1024px) {
+
+
   .recipes {
       grid-template-columns: 1fr 1fr 1fr 1fr;
   }
 
-  .recipe p:first-of-type {
-      margin: 0;
-  }
 }
 
 
