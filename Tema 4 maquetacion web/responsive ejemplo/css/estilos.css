@@ -1,0 +1,229 @@
+* {
+  box-sizing: border-box;
+}
+
+/* Pequeños reseteos */
+h1,
+h3,
+h4,
+p {
+  margin: 0px;
+  padding: 0.5em;
+}
+body {
+  background-color: white;
+}
+/* Para cambir el color de leta de ciertos elementos */
+.verde {
+  color: #0c9b3b;
+}
+
+/* Contenedor general*/
+.container {
+  font-family: "Righteous", cursive;
+  margin: 20px auto;
+  width: 90%;
+}
+
+/* Parte del logo y menú */
+header {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu_item {
+  padding: 0.5em;
+  display: none;
+}
+
+/*Estilos parte principal*/
+main {
+  background-color: #666666;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+main section {
+  width: 100%;
+}
+
+section.main_text {
+  color: white;
+  font-weight: bolder;
+  padding: 0.5em;
+}
+
+section.images {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+section.images img {
+  height: 100px;
+  width: 25%;
+}
+
+.hidden {
+  display: none;
+}
+
+@media screen and (min-width: 576px) {
+  nav {
+    display: flex;
+  }
+
+  .menu_item {
+    display: inline-block;
+  }
+
+  .icon {
+    display: none;
+  }
+
+  .novedades {
+    display: flex;
+  }
+
+  .novedades > * {
+    width: 25%;
+  }
+
+  section.main_text,
+  section.images {
+    width: 50%;
+  }
+
+  section.images img {
+    width: 50%;
+    height: 25%;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .hidden {
+    display: block;
+  }
+
+  section.images {
+    order: 1;
+  }
+
+  section.main_text {
+    order: 2;
+  }
+
+  section.images img {
+    height: 33%;
+    width: 33%;
+  }
+}
+
+
+--------
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  text-align: center;
+  background-color: #fff;
+  padding: 20px 0;
+}
+
+#nav {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+#nav li {
+  cursor: pointer;
+  font-size: 18px;
+  color: #00bcd4;
+}
+
+#fotochef img {
+  width: 100px;
+}
+
+main {
+  padding: 20px;
+}
+
+section img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto 10px;
+}
+
+section h3 {
+  text-align: center;
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+section h4 {
+  text-align: center;
+  font-size: 20px;
+  color: #555;
+  margin: 0 0 20px;
+}
+
+/* Recipe Styles */
+.recipes {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+.recipe {
+  text-align: center;
+}
+
+.recipe img {
+  width: 100%;
+  height: auto;
+}
+
+.recipe p:first-of-type {
+  font-weight: bold;
+  font-size: 18px;
+  color: #00bcd4;
+  margin: 10px 0;
+}
+
+.recipe p:last-of-type {
+  font-size: 16px;
+  color: #333;
+  line-height: 1.5;
+}
+
+/* Responsive Design */
+@media (min-width: 768px) {
+  .recipes {
+      grid-template-columns: 1fr 1fr;
+  }
+
+  .recipe {
+      text-align: left;
+  }
+}
+
+@media (min-width: 1024px) {
+  .recipes {
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  .recipe p:first-of-type {
+      margin: 0;
+  }
+}
+
+
