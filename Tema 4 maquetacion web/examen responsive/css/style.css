@@ -59,7 +59,6 @@ section h4 {
     margin: 0 0 20px;
 }
 
-/* Receta estilos */
 section div {
     margin-bottom: 20px;
 }
@@ -82,10 +81,9 @@ section div p:last-of-type {
     line-height: 1.5;
 }
 
-/* Responsive*/
 @media (min-width: 576px) {
 
-    header{
+    header {
         display: flex;
         flex-direction: row-reverse;
         margin: 0%;
@@ -108,15 +106,15 @@ section div p:last-of-type {
         margin: 0 auto 10px;
     }
 
-
-    /* Recipe Styles */
     #recipes {
         display: grid;
-        grid-template-columns: repeat (1,1fr);
+        grid-template-columns:  1, 1;
     }
 
     .recipe {
         text-align: center;
+        display: grid;
+        grid-template-columns:  1, 1;
     }
 
     .recipe img {
